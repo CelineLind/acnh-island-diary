@@ -18,3 +18,8 @@ nav{
     position: fixed;
     background-color: aquamarine;
 }
+
+#player-image{
+    padding: 10%;
+    width: 80%;
+}
