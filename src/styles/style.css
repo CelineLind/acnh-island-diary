@@ -1,3 +1,14 @@
 #page-heading{
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.main{
+    margin-left: 22%;
+    background-color: beige;
+}
+
+.sidebar{
+    width: 20%;
+    position: fixed;
+    background-color: aquamarine;
+}
