@@ -1,3 +1,4 @@
+/* All Pages */
 #page-heading{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -36,3 +37,17 @@ nav{
     width: 38%;
     padding: 5%;
 }
+
+/* Profile Page */
+.profile-option-bar{
+    margin-left: 22%;
+    width: 78%;
+    height: 5%;
+    background-color: cadetblue;
+}
+
+#passport{
+    
+}
+
+/* Villagers Page */
