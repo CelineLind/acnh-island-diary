@@ -46,15 +46,15 @@ nav{
     background-color: cadetblue;
 }
 
-#about-section{
+#passport-section{
     width: 70%;
 }
 
-#about-section img{
+#passport-section img{
     width: 100%;
 }
 
-#about-section button{
+#passport-section button{
     float: right;
 }
 
