@@ -46,8 +46,16 @@ nav{
     background-color: cadetblue;
 }
 
-#passport img{
+#passport{
     width: 70%;
+}
+
+#passport img{
+    width: 100%;
+}
+
+#passport button{
+    float: right;
 }
 
 /* Villagers Page */
