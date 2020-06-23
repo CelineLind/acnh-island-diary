@@ -68,13 +68,12 @@ nav{
     width: 78%;
 }
 
-.villager-options img{
-    width: 15%;
-    padding: 5%;
-    padding-bottom: 0%;
+.villager-options figure{
+    background-color: lightcoral;
+    width: 20%;
 }
 
-.villager-options h4{
-    padding-left: 5%;
-    padding-right: 5%;
+.villager-options img{
+    background-color: lightblue;
+    width: 100%;
 }
