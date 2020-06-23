@@ -16,7 +16,7 @@ nav{
 .sidebar{
     width: 20%;
     height: 100%;
-    position: fixed;
+    position: absolute;
     background-color: aquamarine;
 }
 
@@ -61,4 +61,20 @@ nav{
 /* Villagers Page */
 #search-bar{
     width: 78%;
+}
+
+.villager-options{
+    background-color: lightblue;
+    width: 78%;
+}
+
+.villager-options img{
+    width: 15%;
+    padding: 5%;
+    padding-bottom: 0%;
+}
+
+.villager-options h4{
+    padding-left: 5%;
+    padding-right: 5%;
 }
