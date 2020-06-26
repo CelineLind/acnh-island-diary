@@ -1,11 +1,17 @@
 //imports
-import React from "react";
+import React, { useState } from "react";
 import "../styles/style.css";
 import antonio from "../media/antonioVil.png";
 import player from "../media/myPlayer.png";
 import dummyPassport from "../media/passportIMGPlaceholder.png";
 
 export default function Profile() {
+  const [viewingPassport, setViewingPassport] = useState(true);
+
+  // passport page
+
+  // island details page
+
     return (
       <div>
         <head>
