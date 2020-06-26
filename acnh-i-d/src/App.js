@@ -6,6 +6,8 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 // pages
 import Home from "./pages/Home";
+import Profile from "./pages/Profile";
+import Villagers from "./pages/Villagers";
 
 export default function App() {
   return (
@@ -14,6 +16,12 @@ export default function App() {
         <Switch>
             <Route exact path="/">
                 <Home />
+            </Route>
+            <Route exact path="/profile">
+                <Profile />
+            </Route>
+            <Route exact path="/Villagers">
+                <Villagers />
             </Route>
         </Switch>
       </div>
