@@ -1,6 +1,9 @@
 //imports
 import React from "react";
 import "../styles/style.css";
+import antonio from "../media/antonioVil.png";
+import player from "../media/myPlayer.png";
+import dummyPassport from "../media/passportIMGPlaceholder.png";
 
 export default function Profile() {
     return (
@@ -12,16 +15,16 @@ export default function Profile() {
         </head>
 
         <body>
-          <div class="sidebar">
-            <img src="../media/myPlayer.png" id="player-image" alt="villager"/>
-            <h3 id="username">Username</h3>
+            <div class="sidebar">
+                <img src={player} id="player-image" alt="villager"/>
+                <h3 id="username">Username</h3>
 
-              <div class="villager-table">
-                  <img src="../media/antonioVil.png" id="villager-icon" alt="villager"/>
-                  <img src="../media/antonioVil.png" id="villager-icon" alt="villager"/>
-                  <img src="../media/antonioVil.png" id="villager-icon" alt="villager"/>
-              </div>
-          </div>
+                <div class="villager-table">
+                    <img src={antonio} id="villager-icon" alt="villager"/>
+                    <img src={antonio} id="villager-icon" alt="villager"/>
+                    <img src={antonio} id="villager-icon" alt="villager"/>
+                </div>
+            </div>
 
           <div class="profile-option-bar">
               <ul>
@@ -32,7 +35,7 @@ export default function Profile() {
             
           <div class="main">
               <div id="passport-section">
-                  <img src="../media/passportIMGPlaceholder.png"/>
+                  <img src={dummyPassport}/>
                   <br/>
                   <button type="button">Delete</button>
                   <button type="button">Edit</button>

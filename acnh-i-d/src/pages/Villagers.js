@@ -1,6 +1,8 @@
 //imports
 import React from "react";
 import "../styles/style.css";
+import antonio from "../media/antonioVil.png";
+import player from "../media/myPlayer.png";
 
 export default function Villagers() {
     return (
@@ -13,16 +15,16 @@ export default function Villagers() {
         </head>
 
         <body>
-          <div class="sidebar">
-            <img src="../media/myPlayer.png" id="player-image" alt="villager"/>
-            <h3 id="username">Username</h3>
+            <div class="sidebar">
+                <img src={player} id="player-image" alt="villager"/>
+                <h3 id="username">Username</h3>
 
-              <div class="villager-table">
-                  <img src="../media/antonioVil.png" id="villager-icon" alt="villager"/>
-                  <img src="../media/antonioVil.png" id="villager-icon" alt="villager"/>
-                  <img src="../media/antonioVil.png" id="villager-icon" alt="villager"/>
-              </div>
-          </div>
+                <div class="villager-table">
+                    <img src={antonio} id="villager-icon" alt="villager"/>
+                    <img src={antonio} id="villager-icon" alt="villager"/>
+                    <img src={antonio} id="villager-icon" alt="villager"/>
+                </div>
+            </div>
 
           <div class="main">
               <h1 id="page-heading">Villagers</h1>
@@ -34,17 +36,17 @@ export default function Villagers() {
                   <section>
                       <section id="row">
                           <figure>
-                              <p><img src="../media/antonioVil.png"/></p>
+                              <p><img src={antonio} alt="villager"/></p>
                               <figcaption>Villager Name</figcaption>
                           </figure>
 
                           <figure>
-                              <p><img src="../media/antonioVil.png"/></p>
+                              <p><img src={antonio} alt="villager"/></p>
                               <figcaption>Villager Name</figcaption>
                           </figure>
 
                           <figure>
-                              <p><img src="../media/antonioVil.png"/></p>
+                              <p><img src={antonio} alt="villager"/></p>
                               <figcaption>Villager Name</figcaption>
                           </figure>
                       </section>
