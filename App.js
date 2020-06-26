@@ -6,14 +6,18 @@ import "styles/style.css";
 
 
 // pages
-
+import Home from "./pages/Home";
 
 export default function App() {
   return (
     <Router>
       <div className="App">
         <Header />
-        <Switch />
+        <Switch>
+            <Route exact path="/">
+                <Home />
+            </Route>
+        </Switch>
         <Footer />
       </div>
     </Router>
