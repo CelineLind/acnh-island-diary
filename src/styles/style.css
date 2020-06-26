@@ -85,15 +85,15 @@ nav li{
     width: 78%;
 }
 
+.villager-options section{
+    display: flex;
+    flex-direction: row;
+}
+
 .villager-options figure{
     background-color: lightcoral;
 }
 
 .villager-options figure img{
     width: 30%;
-}
-
-.villager-options img{
-    background-color: lightblue;
-    width: 90%;
 }
