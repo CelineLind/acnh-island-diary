@@ -1,2 +1,3 @@
 # exclude
 **/.DS_Store
+**/acnh-i-d/node_modules
