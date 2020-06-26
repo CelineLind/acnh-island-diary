@@ -5,6 +5,19 @@
 
 nav{
     background-color: bisque;
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul{
+    width: 100%;
+}
+
+nav li{
+    background-color: seashell;
+    color: black;
+    display: inline-flex;
+    margin-right: 5%;
 }
 
 .main{
