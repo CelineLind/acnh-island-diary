@@ -1,10 +1,11 @@
 // imports
+import React from "react";
+import "../styles/style.css";
 
 export default function Home() {
     return (
       <div>
         <head>
-            <link rel="stylesheet" href="../styles/style.css"/>
             <title>ACNH Island Diary</title>
             <nav>
                 <ul>
@@ -17,13 +18,13 @@ export default function Home() {
 
         <body>
             <div class="sidebar">
-                <img src="../media/myPlayer.png" id="player-image"/>
+                <img src="../media/myPlayer.png" id="player-image" alt="villager"/>
                 <h3 id="username">Username</h3>
 
                 <div class="villager-table">
-                    <img src="../media/antonioVil.png" id="villager-icon"/>
-                    <img src="../media/antonioVil.png" id="villager-icon"/>
-                    <img src="../media/antonioVil.png" id="villager-icon"/>
+                    <img src="../media/antonioVil.png" id="villager-icon" alt="villager"/>
+                    <img src="../media/antonioVil.png" id="villager-icon" alt="villager"/>
+                    <img src="../media/antonioVil.png" id="villager-icon" alt="villager"/>
                 </div>
             </div>
             
