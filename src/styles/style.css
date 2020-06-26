@@ -95,5 +95,10 @@ nav li{
 }
 
 .villager-options figure img{
-    width: 30%;
+    width: 100%;
+}
+
+.villager-options figcaption{
+    background-color: blanchedalmond;
+    text-align: center;
 }
