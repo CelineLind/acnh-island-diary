@@ -87,10 +87,13 @@ nav li{
 
 .villager-options figure{
     background-color: lightcoral;
-    width: 20%;
+}
+
+.villager-options figure img{
+    width: 30%;
 }
 
 .villager-options img{
     background-color: lightblue;
-    width: 100%;
+    width: 90%;
 }
