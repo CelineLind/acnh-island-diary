@@ -9,13 +9,6 @@ export default function Home() {
       <div>
         <head>
             <title>ACNH Island Diary</title>
-            <nav>
-                <ul>
-                    <li><a href="landingPage.html">Home</a></li>
-                    <li><a href="profilePage.html">Profile</a></li>
-                    <li><a href="villagersPage.html">Villagers</a></li>
-                </ul>
-            </nav>
         </head>
 
         <body>

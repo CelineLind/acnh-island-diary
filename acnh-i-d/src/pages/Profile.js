@@ -10,8 +10,6 @@ export default function Profile() {
       <div>
         <head>
           <title>Profile</title>
-          <nav>
-          </nav>
         </head>
 
         <body>

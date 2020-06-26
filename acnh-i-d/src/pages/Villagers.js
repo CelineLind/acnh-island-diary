@@ -10,8 +10,6 @@ export default function Villagers() {
         <head>
           <link rel="stylesheet" href="../styles/style.css"/>
           <title>Villagers</title>
-          <nav>
-          </nav>
         </head>
 
         <body>
